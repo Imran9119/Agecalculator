@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Agecalculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+
+
+    <div class="container">
+        <form action="">
+            <div class="base">
+                    <div class="enter"><h5>Age Calculator</h5></div>
+                    <div class="birth">Enter your DOB here:</div>
+                    <div class="block">
+                        <p class="title">Date</p>
+                        <input type="text" name="Date" id="date" placeholder="dd" required="required" min="1" maxlength="2"/>
+                    </div>
+                    <div class="block">
+                        <p class="title">Month</p>
+                        <input type="text" name="month" id="month"placeholder="mm" required="required" min="1" maxlength="2"/>
+                    </div>
+                    <div class="block">
+                        <p class="title">Year</p>
+                        <input type="text" name="year" id="year" placeholder="yyyy" required="required" min="4" maxlength="4"/>
+                    </div>
+
+                    <div class="block">
+                        <div class="enter">
+                            <input type="button" name="submit" id="" value="Submit" onclick="age()"/>
+                        </div>
+                        
+                    </div>
+
+                    <div id="age"></div>
+
+
+            </div>
+        </form>
+        <footer class="copy">
+            <p>&copy; 2023 Imran Shaikh. All rights reserved.</p>
+          </footer>
+    </div>
+    
+
+</body>
+
+</html>
